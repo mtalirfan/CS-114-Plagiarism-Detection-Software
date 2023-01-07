@@ -1,0 +1,39 @@
+Considering the above example suppose the test file contains 200 words and total
+number of words of 5 source files is 200, 300, 150, 500, and 300 respectively. Then
+Similarity index will be calculated as follows:
+Total Similarity Index=
+Number of Shared Words
+Total Number of Words in all files𝑋100
+
+ =
+143
+200+300+150+500+300+200
+𝑋100 =8.6%
+From Source 1 =
+Number of Shared Words between 𝑡𝑒𝑠𝑡 𝑎𝑛𝑑 𝑠𝑜𝑢𝑟𝑐𝑒 𝑓𝑖𝑙𝑒 1
+Total Number of Words in test and source file 1
+𝑋100
+
+ =
+33
+200+200
+𝑋100 = 8.25%
+From Source 2 =
+Number of Shared Words between 𝑡𝑒𝑠𝑡 𝑎𝑛𝑑 𝑠𝑜𝑢𝑟𝑐𝑒 𝑓𝑖𝑙𝑒 2
+Total Number of Words in test and source file 2
+𝑋100
+
+ =
+10
+200+300
+𝑋100 = 2%
+You can similarly calculate the similarity index from the remaining files too.
+5) Total number of phrases found similar.
+Then it should print the similar phrases found at the end of the test file as follows:
+Total Number of Similar Phrases= 32
+ Similar Phrases/Clauses Source File
+””””””””””””””””””””””””””””””””””””””””””
+a) In the woods 1
+b) Living in Pakistan 5
+c) The amazing Spiderman 3
+ Note: Count the group of 2 or more words a phrase/Clause.

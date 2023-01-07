@@ -1,0 +1,7 @@
+This document proposes a software written in C++ (C plus plus) programming language which accepts a text file, compares it against a pool of files for plagiarism of words and phrases, and prepares a similarity index report for the submitted file.
+
+plagiarism detection software
+
+plagiarism detection software
+
+plagiarism detection software

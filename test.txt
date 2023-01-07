@@ -1,0 +1,37 @@
+A plagiarism detection software is a Software system that takes a submitted text as input, and
+compares the text against a set of publicly available and privately held documents, resulting
+in a similarity report. The similarity report includes marking of similar or identical text,
+hyperlinks or other references to sources that match it, and an overall similarity report. Such
+software is developed specifically to identify cases where someone’s work is presented
+totally or partially without giving credit to its owner and without applying proper citation
+practices. The idea behind this project is to develop a simple program that can check
+plagiarism of a simple text file by comparing it with 5 different source files.
+
+
+		Similarity Index = 9.63%
+Source 1	= 12.5%
+Source 2	= 12.8%
+Source 3	= 5.26%
+Source 4	= 3.12%
+Source 5	= 4.01%
+
+
+Total Number of Similar Phrases = 17
+    Similar Phrases/Clauses       Source File
+    """"""""""""""""""""""""""""""""""""""""""
+    a)  is a                           1
+    b)  against a set of               1
+    c)  a similarity                   1
+    d)  similarity report              1
+    e)  of a                           1
+    f)  source files.                  1
+    g)  plagiarism detection software  2
+    h)  against a                      2
+    i)  a similarity                   2
+    j)  plagiarism of                  2
+    k)  text file                      2
+    l)  in a                           3
+    m)  of similar                     3
+    n)  of a                           3
+    o)  source files.                  3
+    p)  in a                           4

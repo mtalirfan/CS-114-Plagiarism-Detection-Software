@@ -1,0 +1,29 @@
+Your designed program should meet the following conditions and rules.
+1) Should take the name of the Test file and 5 source files from the user as input.
+2) Match the test file with source files 1 by 1 and keeps a track of the number of words
+and phrases/clauses found similar.
+3) It should keep track of and print similar words in the following fashion
+Total Number of similar words found=143
+33 from file 1
+10 from file 2
+50 from file 3
+25 from file 4
+25 from file 5
+Note: The given word count is only for example, the actual word count will depend
+upon the test and source files.
+4) Should generate a Similarity index report both at the end of the file and on the console
+in the following formatting.
+ Similarity Index= __%
+Source 1 = __%
+Source 2 = __%
+Source 3 = __%
+Source 4 = __%
+Source 5 = __%
+Note: Count the number of words that are shared between the test and source files.
+Count the total number of words in both files (shared and un-shared). Divide the
+number of shared words by the total number of words. Multiply the number you found
+by 100.0.
+Similarity Index = Number of Shared Words
+Total Number of Words in all files𝑋100
+Use the same formula to generate a similarity index from every source file i.e. from the
+Test file and 5 source files.
